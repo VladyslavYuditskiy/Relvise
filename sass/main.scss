@@ -807,6 +807,25 @@ svg path {
   text-align: center;
   padding: 0 22px;
 }
+@media (max-width:380px){
+  .subscribe__input {
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    -ms-border-radius: 5px 5px 0px 0px;
+    -o-border-radius: 5px 5px 0px 0px;
+  }
+.subscribe__button {
+  flex: 1 1 auto;
+  border: 1px solid #E6E6E6;
+  border-top: none;
+  border-radius: 0px 0px 5px 5px;
+  -webkit-border-radius: 0px 0px 5px 5px;
+  -moz-border-radius: 0px 0px 5px 5px;
+  -ms-border-radius: 0px 0px 5px 5px;
+  -o-border-radius: 0px 0px 5px 5px;
+}
+}
 /*----------/Subscribe----------*/
 /*----------Contact-us----------*/
 .contact-us {
