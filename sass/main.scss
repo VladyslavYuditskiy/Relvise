@@ -778,6 +778,7 @@ svg path {
 }
 .subscribe__form {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 .subscribe__input {
